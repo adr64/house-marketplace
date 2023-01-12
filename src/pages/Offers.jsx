@@ -10,7 +10,7 @@ function Offers() {
     const [loading, setLoading] = useState(true)
     const [lastFetchListing, setLastFetchListing] = useState(null)
 
-    const l = 1
+    const l = 10
 
     useEffect(() => {
         const fetchListings = async () => {
